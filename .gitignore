@@ -1,0 +1,5 @@
+__pycache__
+build/
+dist/
+ee_auth_switcher.egg-info/
+*/__pycache__/
