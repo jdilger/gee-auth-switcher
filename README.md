@@ -1,9 +1,9 @@
-# `gee_auth`
+# `ee_auth`
 
 **Usage**:
 
 ```console
-$ gee_auth [OPTIONS] COMMAND [ARGS]...
+$ ee_auth [OPTIONS] COMMAND [ARGS]...
 ```
 
 **Options**:
@@ -16,17 +16,18 @@ $ gee_auth [OPTIONS] COMMAND [ARGS]...
 
 * `activate-user`: The GEE account to active
 * `authenticate-user`: authenticate an earth engine account.
+* `check-activated-user`: Check to see which GEE account is activated
 * `list-users`: See a list of all current users
 * `make-new-user`: Add a new user account to select from
 
-## `gee_auth activate-user`
+## `ee_auth activate-user`
 
 The GEE account to active
 
 **Usage**:
 
 ```console
-$ gee_auth activate-user [OPTIONS] NAME
+$ ee_auth activate-user [OPTIONS] NAME
 ```
 
 **Arguments**:
@@ -37,7 +38,7 @@ $ gee_auth activate-user [OPTIONS] NAME
 
 * `--help`: Show this message and exit.
 
-## `gee_auth authenticate-user`
+## `ee_auth authenticate-user`
 
 authenticate an earth engine account. overrides any current credentials
     
@@ -45,35 +46,49 @@ authenticate an earth engine account. overrides any current credentials
 **Usage**:
 
 ```console
-$ gee_auth authenticate-user [OPTIONS]
+$ ee_auth authenticate-user [OPTIONS]
 ```
 
 **Options**:
 
 * `--help`: Show this message and exit.
 
-## `gee_auth list-users`
+## `ee_auth check-activated-user`
+
+Check to see which GEE account is activated
+
+**Usage**:
+
+```console
+$ ee_auth check-activated-user [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ee_auth list-users`
 
 See a list of all current users
 
 **Usage**:
 
 ```console
-$ gee_auth list-users [OPTIONS]
+$ ee_auth list-users [OPTIONS]
 ```
 
 **Options**:
 
 * `--help`: Show this message and exit.
 
-## `gee_auth make-new-user`
+## `ee_auth make-new-user`
 
 Add a new user account to select from
 
 **Usage**:
 
 ```console
-$ gee_auth make-new-user [OPTIONS]
+$ ee_auth make-new-user [OPTIONS]
 ```
 
 **Options**:

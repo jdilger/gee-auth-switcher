@@ -10,7 +10,7 @@ from setuptools import setup
 # This call to setup() does all the work
 setup(
     name='ee_auth_switcher',
-    version='0.0.1',
+    version='0.0.11',
     description="Simple cli for switching between gee accounts ",
     # long_description=README,
     # long_description_content_type="text/markdown",
